@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="SILEORA Beauty & Skincare — SILEORA Body Care Extra Dosting harian untuk kulit tubuh lebih cerah, halus, dan terawat." />
+  <title>SILEORA — Body Care Extra Dosting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@400;600;700;800;900&family=Sacramento&display=swap"
+    rel="stylesheet">
+  <link rel="preload" as="image" href="assets/hero-product-v2.webp" type="image/webp" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="site-page">
+    <svg class="svg-sprite" aria-hidden="true">
+      <symbol id="i-whatsapp" viewBox="0 0 24 24">
+        <path d="M20.5 11.8a8.5 8.5 0 0 1-12.6 7.5L3 20.6l1.3-4.8A8.5 8.5 0 1 1 20.5 11.8Z" />
+        <path
+          d="M8.1 7.7c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.7c.1.3 0 .5-.2.7l-.6.7c-.2.2-.1.4 0 .6.6 1.2 1.5 2.1 2.7 2.7.2.1.4.2.6 0l.8-1c.2-.2.4-.3.7-.2l1.7.8c.3.1.5.2.5.4.1.7-.2 1.5-.8 2-1 .8-2.3.8-3.4.5-2.1-.6-3.7-2-5-3.8-1.2-1.7-1.9-3.7-1.2-4.8l.8-1.3Z" />
+      </symbol>
+      <symbol id="i-shopee" viewBox="0 0 24 24" style="fill:currentColor;stroke:none;">
+        <path
+          d="M19 7h-2.2a4.8 4.8 0 0 0-9.6 0H5a2 2 0 0 0-2 2.1l1.2 10.4A3 3 0 0 0 7.2 22h9.6a3 3 0 0 0 3-2.5L21 9.1A2 2 0 0 0 19 7Zm-7-3a2.8 2.8 0 0 1 2.8 2.8H9.2A2.8 2.8 0 0 1 12 4Zm.8 13.5c-1.8 0-2.6-.9-2.7-1.5a.6.6 0 1 1 1.2-.2c.1.3.5.6 1.5.6 1 0 1.5-.4 1.5-1 0-.6-.5-.9-1.6-1.1-1.3-.3-2.2-.8-2.2-1.8 0-1.1 1-1.8 2.2-1.8 1.4 0 2.2.7 2.4 1.4a.6.6 0 1 1-1.2.3c-.1-.3-.5-.5-1.2-.5-.8 0-1.1.4-1.1.7 0 .5.4.7 1.4 1 1.4.3 2.4.9 2.4 2 0 1.2-1 1.9-2.6 1.9Z" />
+      </symbol>
+      <symbol id="i-cart" viewBox="0 0 24 24">
+        <path d="M3 4h2l2 11h10l2-7H6" />
+        <circle cx="9" cy="19" r="1.4" />
+        <circle cx="17" cy="19" r="1.4" />
+      </symbol>
+      <symbol id="i-leaf" viewBox="0 0 24 24">
+        <path d="M20.6 3.5C13.2 3.7 6.8 6 5 11.2c-1.6 4.8 2.6 8.1 6.3 6 4.7-2.6 5-8.4 9.3-13.7Z" />
+        <path d="M3.5 20.5c3.2-5.8 7.7-8.8 12.6-11.4" />
+      </symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24">
+        <path d="m12 2.7 8 3.2v5.7c0 5.2-3.4 8.2-8 9.7-4.6-1.5-8-4.5-8-9.7V5.9l8-3.2Z" />
+        <path d="m8.4 12 2.3 2.3 4.9-5" />
+      </symbol>
+      <symbol id="i-sparkles" viewBox="0 0 24 24">
+        <path d="M12 2c.3 5.2 2.8 8 7.2 8.4-4.4.4-6.9 3.2-7.2 8.4-.3-5.2-2.8-8-7.2-8.4C9.2 10 11.7 7.2 12 2Z" />
+        <path d="M19 16c.1 2 1.1 3.1 3 3.3-1.9.2-2.9 1.3-3 3.3-.1-2-1.1-3.1-3-3.3 1.9-.2 2.9-1.3 3-3.3Z" />
+      </symbol>
+      <symbol id="i-drop" viewBox="0 0 24 24">
+        <path d="M12 2.5c2.5 4 6.5 8.2 6.5 12.1a6.5 6.5 0 0 1-13 0C5.5 10.7 9.5 6.5 12 2.5Z" />
+      </symbol>
+      <symbol id="i-waves" viewBox="0 0 24 24">
+        <path
+          d="M2.5 7.5c2 0 2 1.3 4 1.3s2-1.3 4-1.3 2 1.3 4 1.3 2-1.3 4-1.3 2 1.3 4 1.3M2.5 12c2 0 2 1.3 4 1.3s2-1.3 4-1.3 2 1.3 4 1.3 2-1.3 4-1.3 2 1.3 4 1.3M2.5 16.5c2 0 2 1.3 4 1.3s2-1.3 4-1.3 2 1.3 4 1.3 2-1.3 4-1.3 2 1.3 4 1.3" />
+      </symbol>
+      <symbol id="i-diamond" viewBox="0 0 24 24">
+        <path d="m3 8 4-4h10l4 4-9 12L3 8Z" />
+        <path d="m7 4 2.2 4L12 4l2.8 4L17 4M3 8h18M9.2 8 12 20l2.8-12" />
+      </symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24">
+        <path
+          d="M20.8 5.7c-2.3-2.4-6.1-1.8-8.8 1.3-2.7-3.1-6.5-3.7-8.8-1.3C.2 8.9 2 14.9 12 21c10-6.1 11.8-12.1 8.8-15.3Z" />
+      </symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24">
+        <rect x="3" y="5" width="18" height="16" rx="2" />
+        <path d="M7 2v6M17 2v6M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01" />
+      </symbol>
+      <symbol id="i-chart" viewBox="0 0 24 24">
+        <path d="M4 21v-7h3v7M10.5 21V9h3v12M17 21V4h3v17M3 21h19" />
+      </symbol>
+      <symbol id="i-hand" viewBox="0 0 24 24">
+        <path
+          d="M7.5 11V4.8a1.5 1.5 0 0 1 3 0V10M10.5 9V3.8a1.5 1.5 0 0 1 3 0V10M13.5 9V5a1.5 1.5 0 0 1 3 0v5M16.5 9V7a1.5 1.5 0 0 1 3 0v6c0 5-2.6 8-7 8-3.2 0-5-1.4-6.5-4l-2-3.4a1.7 1.7 0 0 1 2.8-1.9l2 2.3" />
+      </symbol>
+      <symbol id="i-alert" viewBox="0 0 24 24">
+        <path d="M10.4 3.8 2.1 18.2A1.9 1.9 0 0 0 3.8 21h16.4a1.9 1.9 0 0 0 1.7-2.8L13.6 3.8a1.9 1.9 0 0 0-3.2 0Z" />
+        <path d="M12 9v4M12 17h.01" />
+      </symbol>
+      <symbol id="i-truck" viewBox="0 0 24 24">
+        <path d="M3 6h11v11H3zM14 10h4l3 3v4h-7z" />
+        <circle cx="7" cy="19" r="2" />
+        <circle cx="18" cy="19" r="2" />
+      </symbol>
+      <symbol id="i-box" viewBox="0 0 24 24">
+        <path d="m4 7 8-4 8 4v10l-8 4-8-4V7Z" />
+        <path d="m4 7 8 4 8-4M12 11v10M8 5l8 4" />
+      </symbol>
+      <symbol id="i-gift" viewBox="0 0 24 24">
+        <rect x="3" y="9" width="18" height="12" rx="1" />
+        <path
+          d="M2 5h20v4H2zM12 5v16M12 5H8.5a2 2 0 1 1 2-3c1 1 1.5 3 1.5 3ZM12 5h3.5a2 2 0 1 0-2-3c-1 1-1.5 3-1.5 3Z" />
+      </symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24">
+        <rect x="3" y="3" width="18" height="18" rx="5" />
+        <circle cx="12" cy="12" r="4" />
+        <path d="M17.5 6.5h.01" />
+      </symbol>
+      <symbol id="i-youtube" viewBox="0 0 24 24">
+        <path
+          d="M21 7.2a2.8 2.8 0 0 0-2-2C17.2 4.7 12 4.7 12 4.7s-5.2 0-7 .5a2.8 2.8 0 0 0-2 2A28 28 0 0 0 2.5 12a28 28 0 0 0 .5 4.8 2.8 2.8 0 0 0 2 2c1.8.5 7 .5 7 .5s5.2 0 7-.5a2.8 2.8 0 0 0 2-2 28 28 0 0 0 .5-4.8 28 28 0 0 0-.5-4.8Z" />
+        <path d="m10 15 5-3-5-3v6Z" />
+      </symbol>
+      <symbol id="i-home" viewBox="0 0 24 24">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z" />
+        <path d="M9 22V12h6v10" />
+      </symbol>
+      <symbol id="i-bag" viewBox="0 0 24 24">
+        <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" />
+        <path d="M3 6h18" />
+        <path d="M16 10a4 4 0 0 1-8 0" />
+      </symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24">
+        <path
+          d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z" />
+      </symbol>
+    </svg>
+
+    <header class="topbar">
+      <div class="shell nav-wrap">
+        <a class="brand" href="#beranda" aria-label="Sileora beranda">
+          <span>SILEORA</span><small>BEAUTY &amp; SKINCARE</small>
+        </a>
+        <nav aria-label="Navigasi utama">
+          <a class="active" href="#beranda">Beranda</a>
+          <a href="#tentang">Tentang Kami</a>
+          <a href="#bukti-video">Video Bukti</a>
+          <a href="#hasil">Hasil</a>
+          <a href="#produk">Produk</a>
+          <a href="#testimoni">Testimoni</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="button button-small button-topbar-shopee" href="https://id.shp.ee/8yARuVXj" target="_blank"
+            rel="noopener noreferrer">Shopee</a>
+          <a class="button button-small" href="https://wa.me/6285188772126">Order WA</a>
+        </div>
+        <button class="menu-toggle" aria-label="Buka menu"><span></span><span></span><span></span></button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="beranda">
+        <img class="hero-image" src="assets/hero-product-v2.webp"
+          alt="SILEORA body lotion dan toner di atas pedestal marmer" width="1830" height="859" fetchpriority="high"
+          decoding="async" />
+        <div class="hero-wash"></div>
+        <div class="shell hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">SILEORA BODY CARE EXTRA DOSTING</p>
+            <h1>Rawat Kulitmu<br>Lebih Cerah, Halus,<br>dan Terawat <span>♡</span></h1>
+            <p class="lead">Solusi perawatan kulit tubuh harian dengan formula ekstra dosting untuk kulit lebih putih
+              cerah sehat, halus, lembap, dan percaya diri setiap hari.</p>
+            <div class="mini-trust">
+              <div><i><svg>
+                    <use href="#i-leaf" />
+                  </svg></i><span>Aman<br>Digunakan</span></div>
+              <div><i><svg>
+                    <use href="#i-shield" />
+                  </svg></i><span>Terbukti<br>Berkualitas</span></div>
+              <div><i><svg>
+                    <use href="#i-sparkles" />
+                  </svg></i><span>Khusus untuk<br>Kulit Badan</span></div>
+            </div>
+            <div class="hero-buttons">
+              <a class="button button-hero-order" href="#produk"><svg>
+                  <use href="#i-cart" />
+                </svg><span>Pesan Sekarang</span> <b>→</b></a>
+            </div>
+            <div class="micro-proof">
+              <span><svg>
+                  <use href="#i-truck" />
+                </svg>Pengiriman Seluruh Indonesia</span>
+              <span><svg>
+                  <use href="#i-shield" />
+                </svg>Pembayaran Aman</span>
+              <span><svg>
+                  <use href="#i-box" />
+                </svg>Bisa COD</span>
+            </div>
+          </div>
+
+          <p class="hero-script script-one">Glowing<br>Confident<br>Everyday <b>♡</b></p>
+          <p class="hero-script script-two">Kulit Sehat<br>Versi Terbaikmu<br>Dimulai di Sini ♡</p>
+          <div class="hero-benefits" aria-label="Manfaat SILEORA">
+            <div><i><svg>
+                  <use href="#i-sparkles" />
+                </svg></i><span>Mencerahkan dan<br>Memutihkan Kulit</span></div>
+            <div><i><svg>
+                  <use href="#i-shield" />
+                </svg></i><span>Menghilangkan Bekas<br>Cacar, Koreng, dll</span></div>
+            <div><i><svg>
+                  <use href="#i-drop" />
+                </svg></i><span>Melembapkan Kulit</span></div>
+            <div><i><svg>
+                  <use href="#i-waves" />
+                </svg></i><span>Meratakan Warna Kulit</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefit-grid" id="manfaat">
+        <div class="shell four-grid">
+          <article class="soft-card">
+            <i><svg>
+                <use href="#i-sparkles" />
+              </svg></i>
+            <h3>Membantu<br>mencerahkan kulit</h3>
+            <p>Kulit tampak lebih cerah<br>dan bercahaya alami.</p>
+          </article>
+          <article class="soft-card">
+            <i><svg>
+                <use href="#i-shield" />
+              </svg></i>
+            <h3>Membantu menyamarkan<br>bekas</h3>
+            <p>Menyamarkan bekas cacar,<br>koreng, dan noda hitam.</p>
+          </article>
+          <article class="soft-card">
+            <i><svg>
+                <use href="#i-drop" />
+              </svg></i>
+            <h3>Melembapkan kulit</h3>
+            <p>Menjaga kelembapan kulit<br>sepanjang hari.</p>
+          </article>
+          <article class="soft-card">
+            <i><svg>
+                <use href="#i-waves" />
+              </svg></i>
+            <h3>Membantu meratakan<br>warna kulit</h3>
+            <p>Kulit tampak lebih halus<br>dan sehat merata.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="why" id="tentang">
+        <div class="shell">
+          <div class="section-heading">
+            <h2>Kenapa Pilih <strong>SILEORA?</strong></h2>
+            <p>Karena kulit sehat dan cantik itu dimulai dari perawatan yang tepat.</p>
+          </div>
+          <div class="why-grid">
+            <article><i><svg>
+                  <use href="#i-leaf" />
+                </svg></i>
+              <div>
+                <h3>Formula Aman<br>dan Lembut</h3>
+                <p>Aman digunakan untuk pemakaian rutin sehari-hari.</p>
+              </div>
+            </article>
+            <article><i><svg>
+                  <use href="#i-diamond" />
+                </svg></i>
+              <div>
+                <h3>Hasil Nyata</h3>
+                <p>Kulit tampak lebih cerah, halus dan sehat dalam waktu singkat.</p>
+              </div>
+            </article>
+            <article><i><svg>
+                  <use href="#i-heart" />
+                </svg></i>
+              <div>
+                <h3>Cocok untuk<br>Semua Jenis Kulit</h3>
+                <p>Diformulasikan khusus untuk seluruh kulit badan.</p>
+              </div>
+            </article>
+            <article><i><svg>
+                  <use href="#i-leaf" />
+                </svg></i>
+              <div>
+                <h3>Kualitas Terpercaya</h3>
+                <p>Dengan bahan pilihan dan standar kualitas terbaik.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="video-proof" id="bukti-video">
+        <div class="shell">
+          <div class="section-heading compact">
+            <h2>Bukti Nyata <strong>Paket SILEORA</strong></h2>
+            <p>Real unboxing &amp; bukti fisik paket SILEORA Body Care Extra Dosting langsung sebelum dikirim ke
+              pelanggan.</p>
+          </div>
+          <div class="video-proof-container">
+            <div class="video-phone-card">
+              <div class="video-media-wrap">
+                <video class="video-player" src="assets/PAKET.mp4" playsinline controls loop muted autoplay
+                  preload="metadata">
+                  Browser Anda tidak mendukung pemutaran video.
+                </video>
+                <div class="video-badge-overlay">
+                  <span class="pulse-dot"></span>
+                  <span>Real Video Paket</span>
+                </div>
+              </div>
+              <div class="video-caption">
+                <p><strong>Paket SILEORA Body Care Extra Dosting</strong> dipacking rapi dan aman dengan segel resmi
+                  &amp; bubble wrap tebal langsung dari gudang pengiriman.</p>
+              </div>
+            </div>
+
+            <div class="video-feature-list">
+              <div class="video-feat-card">
+                <i><svg>
+                    <use href="#i-shield" />
+                  </svg></i>
+                <div>
+                  <h4>100% Produk Original Bersegel</h4>
+                  <p>Produk SILEORA Body Care Extra Dosting asli dengan segel jaminan mutu langsung dari pabrikan resmi.
+                  </p>
+                </div>
+              </div>
+              <div class="video-feat-card">
+                <i><svg>
+                    <use href="#i-box" />
+                  </svg></i>
+                <div>
+                  <h4>Packing Super Aman &amp; Tebal</h4>
+                  <p>Dilapisi bubble wrap tebal dan kotak kemasan kokoh agar lotion dan toner tiba dalam kondisi
+                    sempurna tanpa bocor.</p>
+                </div>
+              </div>
+              <div class="video-feat-card">
+                <i><svg>
+                    <use href="#i-truck" />
+                  </svg></i>
+                <div>
+                  <h4>Bisa COD &amp; Dikirim Setiap Hari</h4>
+                  <p>Pengiriman cepat ke seluruh Indonesia dengan opsi bayar di tempat (COD) saat kurir tiba di rumahmu.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="results" id="hasil">
+        <div class="shell">
+          <div class="section-heading compact">
+            <h2>Lihat Perubahannya!</h2>
+            <p>Bukti nyata transformasi kulit tampak jauh lebih cerah, bersih, dan glowing setelah pemakaian rutin
+              SILEORA.</p>
+          </div>
+          <div class="ba-showcase">
+            <article class="ba-card ba-before">
+              <div class="ba-badge badge-before">SEBELUM (BEFORE)</div>
+              <div class="ba-photo-wrap">
+                <img src="assets/before2.webp"
+                  alt="Kondisi kulit sebelum pemakaian rutin SILEORA Body Care Extra Dosting" width="960" height="1280"
+                  loading="lazy" decoding="async" />
+              </div>
+              <div class="ba-meta">
+                <h3>Sebelum Perawatan</h3>
+                <!-- <p>Kulit tangan dan badan tampak kusam, warna kurang merata, dan butuh nutrisi ekstra dosting.</p> -->
+              </div>
+            </article>
+
+            <!-- <div class="ba-divider-badge">
+              <span>HASIL PEMAKAIAN RUTIN</span>
+              <b>SILEORA</b>
+              <i><svg>
+                  <use href="#i-sparkles" />
+                </svg></i>
+            </div> -->
+
+            <article class="ba-card ba-after">
+              <div class="ba-badge badge-after">SESUDAH (AFTER) ✦</div>
+              <div class="ba-photo-wrap">
+                <img src="assets/after2.webp"
+                  alt="Kondisi kulit setelah pemakaian rutin SILEORA Body Care Extra Dosting" width="994" height="1280"
+                  loading="lazy" decoding="async" />
+              </div>
+              <div class="ba-meta">
+                <h3>Setelah Pemakaian Rutin</h3>
+                <!-- <p>Kulit tampak jauh lebih putih cerah glowing, bersih bercahaya, halus, dan ternutrisi maksimal!</p> -->
+              </div>
+            </article>
+          </div>
+          <div class="ba-proof-note">
+            <svg>
+              <use href="#i-shield" />
+            </svg>
+            <span><b>100% Real Customer Results</b> — Perubahan nyata tanpa editan, bertahap dan aman untuk
+              kulit.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimoni">
+        <div class="shell">
+          <div class="section-heading compact testimonial-heading">
+            <h2>Apa Kata Mereka?</h2>
+            <p>Ribuan wanita sudah membuktikannya. Kini saatnya kamu!</p>
+            <div class="rating-chip"><span>★★★★★</span><b>4.9/5</b> dari 2.000+ pelanggan</div>
+          </div>
+          <div class="testimonial-carousel-wrap">
+            <button class="carousel-arrow arrow-prev" aria-label="Lihat testimoni sebelumnya" type="button">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+            <div class="testimonial-carousel" role="region" aria-label="Testimoni pelanggan SILEORA" tabindex="0">
+              <div class="testimonial-track" aria-live="off">
+                <figure class="testimonial-slide"><img src="assets/testi1.webp" alt="Testimoni pelanggan SILEORA 1"
+                    width="779" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi2.webp" alt="Testimoni pelanggan SILEORA 2"
+                    width="776" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi3.webp" alt="Testimoni pelanggan SILEORA 3"
+                    width="782" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi4.webp" alt="Testimoni pelanggan SILEORA 4"
+                    width="808" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi5.webp" alt="Testimoni pelanggan SILEORA 5"
+                    width="791" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi6.webp" alt="Testimoni pelanggan SILEORA 6"
+                    width="813" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi7.webp" alt="Testimoni pelanggan SILEORA 7"
+                    width="798" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi8.webp" alt="Testimoni pelanggan SILEORA 8"
+                    width="1054" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi9.webp" alt="Testimoni pelanggan SILEORA 9"
+                    width="1067" height="1221" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi10.webp" alt="Testimoni pelanggan SILEORA 10"
+                    width="847" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi11.webp" alt="Testimoni pelanggan SILEORA 11"
+                    width="851" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi12.webp" alt="Testimoni pelanggan SILEORA 12"
+                    width="845" height="1235" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi13.webp" alt="Testimoni pelanggan SILEORA 13"
+                    width="983" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi14.webp" alt="Testimoni pelanggan SILEORA 14"
+                    width="846" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi15.webp" alt="Testimoni pelanggan SILEORA 15"
+                    width="876" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi16.webp" alt="Testimoni pelanggan SILEORA 16"
+                    width="859" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi17.webp" alt="Testimoni pelanggan SILEORA 17"
+                    width="851" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi18.webp" alt="Testimoni pelanggan SILEORA 18"
+                    width="870" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi19.webp" alt="Testimoni pelanggan SILEORA 19"
+                    width="845" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi20.webp" alt="Testimoni pelanggan SILEORA 20"
+                    width="841" height="1280" loading="lazy" decoding="async"></figure>
+                <figure class="testimonial-slide"><img src="assets/testi21.webp" alt="Testimoni pelanggan SILEORA 21"
+                    width="950" height="1255" loading="lazy" decoding="async"></figure>
+              </div>
+            </div>
+            <button class="carousel-arrow arrow-next" aria-label="Lihat testimoni berikutnya" type="button">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="notice" id="faq">
+        <div class="shell">
+          <div class="section-heading compact">
+            <h2>Informasi &amp; Peringatan</h2>
+            <p>Penting untuk diperhatikan demi hasil maksimal dan perawatan kulit yang aman.</p>
+          </div>
+          <div class="notice-grid">
+            <div><i><svg>
+                  <use href="#i-calendar" />
+                </svg></i><span>Gunakan 2x sehari<br>secara rutin</span></div>
+            <div><i><svg>
+                  <use href="#i-chart" />
+                </svg></i><span>Hasil mulai terlihat<br>dalam 7 hari</span></div>
+            <div><i><svg>
+                  <use href="#i-hand" />
+                </svg></i><span>Tidak boleh untuk<br><b>stretchmark</b></span></div>
+            <div><i><svg>
+                  <use href="#i-alert" />
+                </svg></i><span>Tidak boleh untuk<br>kulit iritasi/tipis</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta product-order-section" id="produk">
+        <div class="cta-petals"></div>
+        <div class="shell product-order-inner">
+          <div class="product-order-card" id="kontak">
+            <div class="product-img-wrapper">
+
+              <img src="assets/produk.webp"
+                alt="Paket Lengkap SILEORA Body Care Extra Dosting (Body Lotion & Toner Badan)" width="1024"
+                height="1024" loading="lazy" decoding="async" />
+            </div>
+            <div class="product-info-box">
+              <p class="product-eyebrow">PAKET LENGKAP BODY CARE EXTRA DOSTING</p>
+              <h2>SILEORA Body Care Extra Dosting Set</h2>
+              <p class="product-subtitle">Kombinasi <b>Body Lotion Extra Dosting</b> &amp; <b>Toner Badan 100ml</b>
+                untuk kulit badan putih cerah, bersih bebas bekas luka, dan glowing merata.</p>
+
+              <div class="product-highlights">
+                <div class="highlight-item">
+                  <i><svg>
+                      <use href="#i-sparkles" />
+                    </svg></i>
+                  <span><b>Mencerahkan Kulit</b>Formula extra dosting cerahkan kulit kusam</span>
+                </div>
+                <div class="highlight-item">
+                  <i><svg>
+                      <use href="#i-shield" />
+                    </svg></i>
+                  <span><b>Samarkan Bekas</b>Cacar, koreng &amp; noda membandel</span>
+                </div>
+                <div class="highlight-item">
+                  <i><svg>
+                      <use href="#i-drop" />
+                    </svg></i>
+                  <span><b>Melembapkan</b>Kulit badan lembap &amp; kenyal 24 jam</span>
+                </div>
+                <div class="highlight-item">
+                  <i><svg>
+                      <use href="#i-waves" />
+                    </svg></i>
+                  <span><b>Warna Merata</b>Bebas belang &amp; glowing mempesona</span>
+                </div>
+              </div>
+
+              <div class="product-cta-action">
+                <div class="promo-badge-strip">
+                  <svg>
+                    <use href="#i-gift" />
+                  </svg>
+                  <span><b>PROMO SPESIAL HARI INI</b> — Stok Terbatas, Amankan Pesananmu!</span>
+                </div>
+                <div class="cta-dual-buttons">
+                  <a class="button button-order-wa"
+                    href="https://wa.me/6285188772126?text=Halo%20Admin%20SILEORA,%20saya%20mau%20pesan%20Paket%20SILEORA%20Body%20Care%20Extra%20Dosting">
+                    <svg>
+                      <use href="#i-whatsapp" />
+                    </svg>
+                    <span>Pesan via WhatsApp</span>
+                    <b>→</b>
+                  </a>
+                  <a class="button button-order-shopee" href="https://id.shp.ee/8yARuVXj" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg>
+                      <use href="#i-shopee" />
+                    </svg>
+                    <span>Beli di Shopee</span>
+                    <b>→</b>
+                  </a>
+                </div>
+              </div>
+
+              <div class="cta-proof">
+                <div><svg>
+                    <use href="#i-truck" />
+                  </svg><span>Pengiriman<br>Seluruh Indonesia</span></div>
+                <div><svg>
+                    <use href="#i-shield" />
+                  </svg><span>Transaksi<br>100% Aman</span></div>
+                <div><svg>
+                    <use href="#i-gift" />
+                  </svg><span>Bisa COD<br>Bayar di Tempat</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell footer-top">
+        <a class="brand" href="#beranda"><span>SILEORA</span><small>BEAUTY &amp; SKINCARE</small></a>
+        <nav><a href="#beranda">Beranda</a><a href="#produk">Produk</a><a href="#tentang">Tentang Kami</a><a
+            href="#bukti-video">Video Bukti</a><a href="#testimoni">Testimoni</a><a href="#faq">FAQ</a><a
+            href="#kontak">Kontak</a></nav>
+        <div class="social"><a href="#" aria-label="Instagram"><svg>
+              <use href="#i-instagram" />
+            </svg></a><a href="#" class="tiktok" aria-label="TikTok">♪</a><a href="#" aria-label="YouTube"><svg>
+              <use href="#i-youtube" />
+            </svg></a></div>
+      </div>
+      <div class="shell copyright"><span>© 2024 SILEORA. All rights reserved.</span><span>Dibuat dengan ♡ untuk kamu
+          yang luar biasa.</span></div>
+    </footer>
+
+    <nav class="mobile-bottom-nav" aria-label="Navigasi mobile">
+      <a href="#beranda" class="bottom-nav-item active" aria-label="Beranda">
+        <svg>
+          <use href="#i-home" />
+        </svg>
+        <span>Beranda</span>
+      </a>
+      <a href="#tentang" class="bottom-nav-item" aria-label="Tentang Kami">
+        <svg>
+          <use href="#i-leaf" />
+        </svg>
+        <span>Tentang</span>
+      </a>
+      <a href="#produk" class="bottom-nav-center-order" aria-label="Pesan Sekarang">
+        <div class="nav-order-bubble">
+          <svg>
+            <use href="#i-cart" />
+          </svg>
+        </div>
+        <span>Pesan</span>
+      </a>
+      <a href="#bukti-video" class="bottom-nav-item" aria-label="Video Bukti">
+        <svg>
+          <use href="#i-sparkles" />
+        </svg>
+        <span>Bukti</span>
+      </a>
+      <a href="#testimoni" class="bottom-nav-item" aria-label="Testimoni">
+        <svg>
+          <use href="#i-chat" />
+        </svg>
+        <span>Testimoni</span>
+      </a>
+    </nav>
+  </div>
+
+  <script>
+    const header = document.querySelector('.topbar');
+    const menuButton = document.querySelector('.menu-toggle');
+
+    menuButton?.addEventListener('click', () => {
+      const open = header.classList.toggle('menu-open');
+      menuButton.setAttribute('aria-expanded', String(open));
+    });
+
+    document.querySelectorAll('.topbar nav a').forEach((link) => {
+      link.addEventListener('click', () => header.classList.remove('menu-open'));
+    });
+
+    const sections = [...document.querySelectorAll('main section[id]')];
+    const navLinks = [...document.querySelectorAll('.topbar nav a, .mobile-bottom-nav a')];
+
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            navLinks.forEach((link) => {
+              link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+            });
+          }
+        });
+      }, {
+        rootMargin: '-20% 0px -65% 0px',
+        threshold: 0
+      });
+
+      sections.forEach((section) => observer.observe(section));
+    } else {
+      let ticking = false;
+      const highlightNavigation = () => {
+        const y = window.scrollY + 110;
+        let active = sections[0]?.id;
+        sections.forEach((section) => {
+          if (section.offsetTop <= y) active = section.id;
+        });
+        navLinks.forEach((link) => link.classList.toggle('active', link.hash === `#${active}`));
+        ticking = false;
+      };
+
+      window.addEventListener('scroll', () => {
+        if (!ticking) {
+          window.requestAnimationFrame(highlightNavigation);
+          ticking = true;
+        }
+      }, { passive: true });
+      highlightNavigation();
+    }
+
+    const carouselWrap = document.querySelector('.testimonial-carousel-wrap');
+    const carousel = document.querySelector('.testimonial-carousel');
+    const track = carousel?.querySelector('.testimonial-track');
+    const prevBtn = document.querySelector('.carousel-arrow.arrow-prev');
+    const nextBtn = document.querySelector('.carousel-arrow.arrow-next');
+
+    if (carousel && track) {
+      const originalSlides = [...track.children];
+      const N = originalSlides.length;
+
+      // Triple Buffer: Prepend full set of clones AND append full set of clones
+      // Buffer before: 0..N-1
+      originalSlides.slice().reverse().forEach((slide) => {
+        const clone = slide.cloneNode(true);
+        clone.setAttribute('aria-hidden', 'true');
+        clone.querySelector('img')?.setAttribute('alt', '');
+        track.insertBefore(clone, track.firstChild);
+      });
+
+      // Buffer after: 0..N-1
+      originalSlides.forEach((slide) => {
+        const clone = slide.cloneNode(true);
+        clone.setAttribute('aria-hidden', 'true');
+        clone.querySelector('img')?.setAttribute('alt', '');
+        track.appendChild(clone);
+      });
+
+      // Start at index N (the first original slide)
+      let currentIndex = N;
+      let autoPlay;
+      let resizeFrame;
+      let isAnimating = false;
+
+      const moveTo = (index, animate = true) => {
+        const target = track.children[index];
+        if (!target) return;
+        track.style.transition = animate
+          ? 'transform 450ms cubic-bezier(.22, .61, .36, 1)'
+          : 'none';
+        track.style.transform = `translate3d(${-target.offsetLeft}px, 0, 0)`;
+      };
+
+      const normalizeBounds = () => {
+        if (currentIndex >= 2 * N) {
+          currentIndex -= N;
+          moveTo(currentIndex, false);
+        } else if (currentIndex < N) {
+          currentIndex += N;
+          moveTo(currentIndex, false);
+        }
+        isAnimating = false;
+      };
+
+      const nextSlide = () => {
+        if (isAnimating) {
+          normalizeBounds();
+        }
+        isAnimating = true;
+        currentIndex += 1;
+        moveTo(currentIndex, true);
+      };
+
+      const prevSlide = () => {
+        if (isAnimating) {
+          normalizeBounds();
+        }
+        isAnimating = true;
+        currentIndex -= 1;
+        moveTo(currentIndex, true);
+      };
+
+      const stopAutoPlay = () => window.clearInterval(autoPlay);
+      const startAutoPlay = () => {
+        stopAutoPlay();
+        autoPlay = window.setInterval(nextSlide, 3400);
+      };
+
+      track.addEventListener('transitionend', () => {
+        normalizeBounds();
+      });
+
+      nextBtn?.addEventListener('click', (e) => {
+        e.preventDefault();
+        stopAutoPlay();
+        nextSlide();
+        startAutoPlay();
+      });
+
+      prevBtn?.addEventListener('click', (e) => {
+        e.preventDefault();
+        stopAutoPlay();
+        prevSlide();
+        startAutoPlay();
+      });
+
+      carouselWrap?.addEventListener('mouseenter', stopAutoPlay);
+      carouselWrap?.addEventListener('mouseleave', startAutoPlay);
+      carouselWrap?.addEventListener('focusin', stopAutoPlay);
+      carouselWrap?.addEventListener('focusout', startAutoPlay);
+
+      let startX = 0;
+      let diffX = 0;
+      carousel.addEventListener('touchstart', (e) => {
+        stopAutoPlay();
+        startX = e.touches[0].clientX;
+        diffX = 0;
+      }, { passive: true });
+
+      carousel.addEventListener('touchmove', (e) => {
+        diffX = e.touches[0].clientX - startX;
+      }, { passive: true });
+
+      carousel.addEventListener('touchend', () => {
+        if (diffX > 40) {
+          prevSlide();
+        } else if (diffX < -40) {
+          nextSlide();
+        }
+        startAutoPlay();
+      });
+
+      document.addEventListener('visibilitychange', () => {
+        document.hidden ? stopAutoPlay() : startAutoPlay();
+      });
+      window.addEventListener('resize', () => {
+        window.cancelAnimationFrame(resizeFrame);
+        resizeFrame = window.requestAnimationFrame(() => moveTo(currentIndex, false));
+      });
+
+      // Initial placement at index N without animation
+      moveTo(currentIndex, false);
+      startAutoPlay();
+    }
+  </script>
+</body>
+
+</html>
